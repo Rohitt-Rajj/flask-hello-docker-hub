@@ -7,7 +7,11 @@ Perfect for learning Docker basics and DevOps workflows!
 
 ## 📁 Project Structure
 
-
+.
+├── app.py # Flask application
+├── Dockerfile # Docker instructions
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 ---
 
 ## ⚙️ Prerequisites
@@ -23,3 +27,11 @@ Perfect for learning Docker basics and DevOps workflows!
 ```bash
 pip install -r requirements.txt
 python app.py
+
+Visit: http://localhost:5000
+
+🐳 Run with Docker
+✅ Step 1: Build the Docker Image
+
+docker build -t flask-hello .
+
